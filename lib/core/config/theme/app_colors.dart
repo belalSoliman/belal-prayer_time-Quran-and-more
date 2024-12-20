@@ -12,6 +12,9 @@ class AppColors {
   static const textPrimaryLight = Color(0xff000000);
   static const textSecondaryLight = Color(0xff757575);
   static const errorLight = Color(0xffd32f2f);
+  static const textLight = Color(0xff000000); // Text color for light mode
+  static const textLightSecondary =
+      Color(0xff757575); // Secondary text color for light mode
 
   // Dark mode colors
   static const primaryDark = Color(0xff6200ea);
@@ -22,4 +25,7 @@ class AppColors {
   static const textPrimaryDark = Color(0xffffffff);
   static const textSecondaryDark = Color(0xffb3b3b3);
   static const errorDark = Color(0xffcf6679);
+  static const textDark = Color(0xffffffff); // Text color for dark mode
+  static const textDarkSecondary =
+      Color(0xffb3b3b3); // Secondary text color for dark mode
 }

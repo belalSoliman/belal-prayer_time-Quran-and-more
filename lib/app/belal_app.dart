@@ -1,3 +1,5 @@
+import 'package:belal/core/config/theme/theme_data/theme_data_dark.dart';
+import 'package:belal/core/config/theme/theme_data/theme_data_light.dart';
 import 'package:belal/views/splas_screen/splash_screen_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -12,9 +14,11 @@ class BelalApp extends StatelessWidget {
       minTextAdapt: true,
       splitScreenMode: true,
       builder: (context, child) {
-        return const MaterialApp(
+        return MaterialApp(
+          theme: getLightTheme(),
+          darkTheme: getDarkTheme(),
           debugShowCheckedModeBanner: false,
-          home: SplashScreenView(),
+          home: const SplashScreenView(),
         );
       },
     );
