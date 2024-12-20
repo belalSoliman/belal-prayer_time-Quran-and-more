@@ -19,19 +19,17 @@ ThemeData getDarkTheme() {
       onSecondary: AppColors.textSecondaryDark,
       error: AppColors.errorDark,
       onError: AppColors.textPrimaryDark,
-      background: AppColors.backgroundDark,
-      onBackground: AppColors.textPrimaryDark,
       surface: AppColors.surfaceDark,
       onSurface: AppColors.textPrimaryDark,
     ),
     textTheme: ThemeData.dark().textTheme.apply(
           bodyColor: AppColors.textDark,
         ),
-    appBarTheme: AppBarTheme(
+    appBarTheme: const AppBarTheme(
       backgroundColor: AppColors.primaryDark,
       foregroundColor: AppColors.textPrimaryDark,
     ),
-    buttonTheme: ButtonThemeData(
+    buttonTheme: const  ButtonThemeData(
       buttonColor: AppColors.primaryDark,
       textTheme: ButtonTextTheme.primary,
     ),

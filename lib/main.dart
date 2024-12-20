@@ -8,8 +8,6 @@ void main() {
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
-    // DeviceOrientation.landscapeLeft,
-    // DeviceOrientation.landscapeRight,
   ]).then((_) {
     runApp(const BelalApp());
   });
