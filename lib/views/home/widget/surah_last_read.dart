@@ -1,6 +1,7 @@
 import 'package:belal/core/config/app_padding.dart';
 import 'package:belal/core/config/theme/app_colors.dart';
 import 'package:belal/core/config/theme/app_text_style.dart';
+import 'package:belal/resources/app_string.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -29,7 +30,7 @@ class SurahLastRead extends StatelessWidget {
               children: [
                 Icon(Icons.menu_book),
                 Text(
-                  "Last Read",
+                  AppString.lastSurahRead,
                   style: AppTextStyle.subtitle2,
                 ),
               ],
