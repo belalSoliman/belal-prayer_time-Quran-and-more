@@ -1,5 +1,5 @@
-import 'package:belal/app/app_assets.dart';
-import 'package:belal/app/app_string.dart';
+import 'package:belal/resources/app_assets.dart';
+import 'package:belal/resources/app_string.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

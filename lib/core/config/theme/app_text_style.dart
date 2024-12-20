@@ -1,4 +1,4 @@
-import 'package:belal/app/app_string.dart';
+import 'package:belal/resources/app_string.dart';
 import 'package:flutter/material.dart';
 
 class AppTextStyle {
