@@ -16,13 +16,14 @@ class BelalApp extends StatelessWidget {
       designSize: const Size(360, 690),
       minTextAdapt: true,
       splitScreenMode: true,
+      enableScaleWH: () => true,
+      enableScaleText: () => true,
       builder: (context, child) {
         return MaterialApp(
-          useInheritedMediaQuery: true,
           locale: DevicePreview.locale(context),
-          builder: (context, widget) {
-            return DevicePreview.appBuilder(context, widget);
-          },
+          builder:
+              DevicePreview.appBuilder, // Use DevicePreview.appBuilder here
+
           navigatorKey: getIt<NavigationService>().navigatorKey,
           theme: getLightTheme(),
           darkTheme: getDarkTheme(),

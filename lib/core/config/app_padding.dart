@@ -1,9 +1,10 @@
 //create class for app padding
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class AppPadding {
   const AppPadding._();
-  static const double small = 8.0;
+  static double small = 8.0.w;
   static const EdgeInsets medium = EdgeInsets.all(16.0);
   static const EdgeInsets large = EdgeInsets.all(24.0);
 }
